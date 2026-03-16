@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Volodymyrovych — Digital Agency</title>
+    <meta name="description" content="Volodymyrovych is a digital design creating websites, brands and digital products." data-i18n-attr-content="meta.description" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+
+    <!-- ─── Preloader ─── -->
+    <div class="preloader" id="preloader" aria-hidden="true">
+      <img class="preloader-logo" src="images/anim.gif" alt="Volodymyrovych Design" />
+    </div>
+
+    <!-- ─── Full-screen overlay menu ─── -->
+    <div class="full-menu" id="fullMenu" aria-hidden="true">
+      <div class="menu-header">
+        <a class="logo-menu" href="#" aria-label="Volodymyrovych home">
+          <img src="images/logo_white.png" alt="Volodymyrovych" />
+        </a>
+        <button class="close-trigger" id="closeMenu" aria-label="Close menu" data-i18n-attr-aria-label="menu.closeAria">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="menu-nav" aria-label="Main menu" data-i18n-attr-aria-label="menu.navAria">
+        <div class="menu-track-shell">
+          <div class="menu-track" id="menuTrack">
+            <div class="menu-item">
+              <a href="#top" class="magnetic-link" data-i18n="menu.main">main</a>
+            </div>
+            <div class="menu-item">
+              <a href="#services" class="magnetic-link" data-i18n="menu.about">about</a>
+            </div>
+            <div class="menu-item">
+              <a href="#work" class="magnetic-link" data-i18n="menu.cases">cases</a>
+            </div>
+            <div class="menu-item">
+              <a href="#contact" class="magnetic-link" data-i18n="menu.contact">contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-footer">
+          <div class="menu-footer-line"></div>
+          <div class="menu-footer-content">
+            <div class="footer-mail">
+              <a href="mailto:liberton1999@gmail.com">liberton1999@gmail.com</a>
+            </div>
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/volodymyrovych_03" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://t.me/volodymyrovych_03" target="_blank" rel="noreferrer">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ─── Fixed header ─── -->
+    <header class="header" id="site-header">
+      <a class="logo-link" href="#" aria-label="Volodymyrovych home">
+        <img src="images/logo_white.png" alt="Volodymyrovych" />
+      </a>
+      <div class="status-wrapper">
+        <a href="https://t.me/volodymyrovych_03" class="availability-button" target="_blank" rel="noopener noreferrer" aria-label="Available for work. Write on Telegram" data-i18n-attr-aria-label="availability.aria">
+          <span class="availability-track">
+            <span class="availability-item">
+              <span class="availability-dot" aria-hidden="true"></span>
+              <span data-i18n="availability.text">Available for work</span>
+              <svg class="availability-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3 6.25A2.25 2.25 0 0 1 5.25 4h13.5A2.25 2.25 0 0 1 21 6.25v11.5A2.25 2.25 0 0 1 18.75 20H5.25A2.25 2.25 0 0 1 3 17.75zm1.9-.75L12 10.8l7.1-5.3zm14.6 1.9-7.05 5.26a.75.75 0 0 1-.9 0L4.5 7.4v10.35c0 .41.34.75.75.75h13.5c.41 0 .75-.34.75-.75z" />
+              </svg>
+            </span>
+            <span class="availability-item">
+              <span class="availability-dot" aria-hidden="true"></span>
+              <span data-i18n="availability.text">Available for work</span>
+              <svg class="availability-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3 6.25A2.25 2.25 0 0 1 5.25 4h13.5A2.25 2.25 0 0 1 21 6.25v11.5A2.25 2.25 0 0 1 18.75 20H5.25A2.25 2.25 0 0 1 3 17.75zm1.9-.75L12 10.8l7.1-5.3zm14.6 1.9-7.05 5.26a.75.75 0 0 1-.9 0L4.5 7.4v10.35c0 .41.34.75.75.75h13.5c.41 0 .75-.34.75-.75z" />
+              </svg>
+            </span>
+            <span class="availability-item">
+              <span class="availability-dot" aria-hidden="true"></span>
+              <span data-i18n="availability.text">Available for work</span>
+              <svg class="availability-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3 6.25A2.25 2.25 0 0 1 5.25 4h13.5A2.25 2.25 0 0 1 21 6.25v11.5A2.25 2.25 0 0 1 18.75 20H5.25A2.25 2.25 0 0 1 3 17.75zm1.9-.75L12 10.8l7.1-5.3zm14.6 1.9-7.05 5.26a.75.75 0 0 1-.9 0L4.5 7.4v10.35c0 .41.34.75.75.75h13.5c.41 0 .75-.34.75-.75z" />
+              </svg>
+            </span>
+            <span class="availability-item">
+              <span class="availability-dot" aria-hidden="true"></span>
+              <span data-i18n="availability.text">Available for work</span>
+              <svg class="availability-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3 6.25A2.25 2.25 0 0 1 5.25 4h13.5A2.25 2.25 0 0 1 21 6.25v11.5A2.25 2.25 0 0 1 18.75 20H5.25A2.25 2.25 0 0 1 3 17.75zm1.9-.75L12 10.8l7.1-5.3zm14.6 1.9-7.05 5.26a.75.75 0 0 1-.9 0L4.5 7.4v10.35c0 .41.34.75.75.75h13.5c.41 0 .75-.34.75-.75z" />
+              </svg>
+            </span>
+          </span>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Switch language" data-i18n-attr-aria-label="lang.switchAria">
+          <button class="lang-switch-btn is-active" id="langEn" type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button class="lang-switch-btn" id="langUa" type="button" data-lang="ua" aria-pressed="false">UA</button>
+        </div>
+
+        <button class="menu-trigger" id="openMenu" aria-expanded="false" aria-controls="fullMenu" aria-label="Open menu" data-i18n-attr-aria-label="menu.openAria">
+          <img src="images/63341dd680edd730047625c0_Burger White.svg" alt="" aria-hidden="true" />
+        </button>
+      </div>
+    </header>
+
+    <!-- ─── Section 1: Hero ─── -->
+    <div class="section background-black" id="top">
+      <div class="main-first-div no-margin">
+        <img class="main-left-light" src="images/63405b062bcd32eb6097a2b5_main left light.svg" alt="" aria-hidden="true" />
+        <div class="main-first-heading">
+          <p class="text-16-suisse uppercase" style="color:#fff;opacity:.5;margin-bottom:.6em;letter-spacing:.12em;" data-i18n="hero.tagline">Independent Developer — Based in Ukraine — Available Worldwide</p>
+          <h1 class="title-94-suisse">
+            <span data-i18n="hero.line1">I build</span><br>
+            <em id="rotating-word" class="rotating-word">interfaces</em><br>
+            <span data-i18n="hero.line2">for business</span>
+          </h1>
+        </div>
+        <footer class="hero-footer">
+          <div class="footer-line"></div>
+          <div class="footer-info">
+            <div class="footer-item locations" aria-live="polite">
+              <span class="footer-label" data-i18n="hero.basedIn">Based in</span>
+              <span class="footer-city text-16-suisse" id="clock-ukraine" data-clock-label="Ukraine" data-i18n-attr-data-clock-label="clock.ukraine">Ukraine 00:00</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- ─── Section 2: Projects ─── -->
+    <div class="works-sticky-outer" id="work">
+      <h2 class="works-heading">
+        <span class="works-word works-word--selected" data-i18n="works.heading.selected">Selected</span>
+        <span class="works-word works-word--works" data-i18n="works.heading.project">Project</span>
+      </h2>
+
+      <div class="works-sticky-inner">
+        <a class="work-card work-card--1" href="#" aria-label="Chocomadebox — Custom Development" data-i18n-attr-aria-label="works.card1.aria" aria-expanded="false">
+          <div class="work-card-inner">
+            <div class="work-card-face work-card-face--front">
+              <img class="work-card-img" src="images/choco.jpg" alt="Chocomadebox" />
+              <div class="work-card-info">
+                <span class="work-card-name">Chocomadebox</span>
+                <span class="work-card-sub" data-i18n="works.card1.sub">Custom Development</span>
+              </div>
+            </div>
+            <div class="work-card-face work-card-face--back">
+              <div class="work-card-back-content">
+                <span class="work-card-back-title">Chocomadebox</span>
+                <p class="work-card-back-text" data-i18n="works.card1.back">Designed and developed chocolatebox.shop from the ground up, moving from custom CSS and styling to complex backend integrations. Successfully synchronized the platform with SalesDrive CRM and Nova Poshta API, while ensuring top-tier security through encrypted environment variables and secure payment processing.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="work-card work-card--2" href="#" aria-label="Nite|lex — Custom Development / Clean Code" data-i18n-attr-aria-label="works.card2.aria" aria-expanded="false">
+          <div class="work-card-inner">
+            <div class="work-card-face work-card-face--front">
+              <img class="work-card-img" src="images/nitelex.jpg" alt="Nite|lex" />
+              <div class="work-card-info">
+                <span class="work-card-name">Nite|lex</span>
+                <span class="work-card-sub" data-i18n="works.card2.sub">Custom Development / Clean Code</span>
+              </div>
+            </div>
+            <div class="work-card-face work-card-face--back">
+              <div class="work-card-back-content">
+                <span class="work-card-back-title">Nite|lex</span>
+                <p class="work-card-back-text" data-i18n="works.card2.back">Developed a custom education-focused platform from scratch. Engineered a seamless integration between the web frontend and a proprietary Telegram bot, automating lead generation and ensuring all course applications are processed in real time.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="work-card work-card--3" href="#" aria-label="Secure Data Vault — advanced encryption for business-critical keys." data-i18n-attr-aria-label="works.card3.aria" aria-expanded="false">
+          <div class="work-card-inner">
+            <div class="work-card-face work-card-face--front">
+              <img class="work-card-img" src="images/api_key_laptop.jpg" alt="Secure Data Vault" />
+              <div class="work-card-info">
+                <span class="work-card-name">Secure Data Vault</span>
+                <span class="work-card-sub" data-i18n="works.card3.sub">Advanced encryption for business-critical keys.</span>
+              </div>
+            </div>
+            <div class="work-card-face work-card-face--back">
+              <div class="work-card-back-content">
+                <span class="work-card-back-title">Secure Data Vault</span>
+                <p class="work-card-back-text" data-i18n="works.card3.back">Secure Data Vault. Server-side IP masking is implemented through secure backend requests to hide origin addresses and protect infrastructure. Advanced encryption protects business-critical API keys and sensitive credentials. All third-party integrations such as payments, CRM, and logistics are processed on the server so private data is never exposed to the browser.</p>
+              </div>
+             </div>
+          </div>
+        </a>
+
+        <a class="work-card work-card--4" href="#" aria-label="Full Integration — Connect your favorite tools" data-i18n-attr-aria-label="works.card4.aria" aria-expanded="false">
+          <div class="work-card-inner">
+            <div class="work-card-face work-card-face--front">
+              <img class="work-card-img" src="images/integ.jpg" alt="Full Integration" />
+              <div class="work-card-info">
+                <span class="work-card-name">Full Integration</span>
+                <span class="work-card-sub" data-i18n="works.card4.sub">Connect your favorite tools</span>
+              </div>
+            </div>
+            <div class="work-card-face work-card-face--back">
+              <div class="work-card-back-content">
+                <span class="work-card-back-title">Full Integration</span>
+                <p class="work-card-back-text" data-i18n="works.card4.back">Advanced logistics with Nova Poshta API integration for real-time tracking, automated waybill generation, and dynamic branch selection. Seamless CRM connectivity with SalesDrive and other systems for lead management and order synchronization. Secure payment infrastructure with LiqPay, WayForPay, Stripe, or custom banking gateways. Flexible REST API integrations for marketing, accounting, and inventory automation.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- ─── Section 3: Services ─── -->
+    <div class="section background-black" id="services">
+      <div class="container">
+        <div class="main-second-div-wrapper">
+          <div class="main-second-div">
+            <h2 class="title-72-suisse white services-heading">
+              <span class="services-heading-static" data-i18n="services.heading.static">What we can</span>
+              <span class="services-heading-moving" id="servicesHeadingMoving" data-i18n="services.heading.moving">Do for you</span>
+            </h2>
+          </div>
+          <div class="content-wrapper">
+            <div class="line-div"></div>
+            <div class="service-row">
+              <div class="service-left">
+                <span class="service-number">01</span>
+                <p class="service-title" data-i18n="services.01.title">Web Development &amp; Replication</p>
+              </div>
+              <p class="service-description" data-i18n="services.01.description">
+                Tailored website creation from scratch or precise replication of existing solutions. I focus on adaptive structures, clean code, and seamless content migration to ensure your site looks and works perfectly.
+              </p>
+            </div>
+            <div class="line-div"></div>
+            <div class="service-row">
+              <div class="service-left">
+                <span class="service-number">02</span>
+                <p class="service-title" data-i18n="services.02.title">E-commerce &amp; Payment Solutions</p>
+              </div>
+              <p class="service-description" data-i18n="services.02.description">
+                Integration of secure payment gateways and checkout systems. From standard card payments to crypto-gateways, I ensure a smooth and reliable transaction flow for your customers.
+              </p>
+            </div>
+             <div class="line-div"></div>
+            <div class="service-row">
+              <div class="service-left">
+                <span class="service-number">03</span>
+                <p class="service-title" data-i18n="services.03.title">Business Automation &amp; CRM</p>
+              </div>
+              <p class="service-description" data-i18n="services.03.description">
+                Fast, reliable connection of CRM systems and third-party services. I automate your business processes by synchronizing data flows, ensuring no lead or customer interaction is ever lost.
+              </p>
+            </div>
+            <div class="line-div"></div>
+            <div class="service-row">
+              <div class="service-left">
+                <span class="service-number">04</span>
+                <p class="service-title" data-i18n="services.04.title">Infrastructure &amp; Security</p>
+              </div>
+              <p class="service-description" data-i18n="services.04.description">
+                Comprehensive server-side setup, including API key protection and IP-restricted access. I ensure your digital assets are shielded with robust security protocols and maintainable backend logic.
+              </p>
+            </div>
+            <div class="line-div"></div>
+            <div class="service-row">
+              <div class="service-left">
+                <span class="service-number">05</span>
+                <p class="service-title" data-i18n="services.05.title">Branding &amp; Visual Identity</p>
+              </div>
+              <p class="service-description" data-i18n="services.05.description">
+                Creation of distinct logos and visual systems. I align aesthetic design with your business goals to make your brand feel premium, memorable, and professional from the first click.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── Section 4: Rolling marquee ─── -->
+    <div class="section background-black marquee-section" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="main-sixth-div">
+          <span class="rolling-text">Volodymyrovych Design&nbsp;&nbsp;—&nbsp;&nbsp;</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── Section 5: Footer / Contact ─── -->
+    <div class="footer-section background-black" id="contact">
+      <div class="contact-page">
+        <div class="footer">
+          <div class="footer-main-content">
+
+            <div class="footer-left-side">
+              <img src="images/logo_white.png" alt="Volodymyrovych Design" style="width:4vw;min-width:52px;" />
+              <a href="mailto:liberton1999@gmail.com" class="footer-mail-link text-28-suisse">
+                liberton1999@<wbr>gmail.com
+              </a>
+            </div>
+
+            <div class="footer-menu mobile-hide">
+              <span class="text-18-suisse-book footer-address-title" data-i18n="footer.menu.title">Menu</span>
+              <a href="#work"     class="text-18-suisse grey social-link" data-i18n="footer.menu.work">Work</a>
+              <a href="#services" class="text-18-suisse grey social-link" data-i18n="footer.menu.services">Services</a>
+              <a href="#contact"  class="text-18-suisse grey social-link" data-i18n="footer.menu.contact">Contact</a>
+            </div>
+
+            <div class="footer-menu footer-social-col mobile-hide">
+              <span class="text-18-suisse-book footer-address-title" data-i18n="footer.social.title">Social</span>
+              <a href="https://www.instagram.com/volodymyrovych_03" target="_blank" rel="noreferrer" class="text-18-suisse grey social-link">Instagram</a>
+              <a href="https://t.me/volodymyrovych_03" target="_blank" rel="noreferrer" class="text-18-suisse grey social-link">Telegram</a>
+            </div>
+
+          </div>
+
+          <div class="footer-social-media">
+            <div class="footer-link">
+              <span class="text-18-suisse grey" style="opacity:.5;">© Volodymyrovych Design <span id="year"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
